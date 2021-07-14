@@ -9,6 +9,7 @@
 -------------------------------------*/
 body{
     margin: 0%;
+    
 }
 /*------------------------------------
             Header section
@@ -16,7 +17,8 @@ body{
 .header{
     background-color: #2D25A0;
     width: 100%;
-    height: 650px;
+    height: 750px;
+    margin-bottom: 70px;
 }
 /* MEnu Bar Styles start */
 .menu-bar{
@@ -40,7 +42,7 @@ nav li{
     text-decoration: none;
     color: #FFFFFF;
 }
-.login-icon{
+.login-icon, .watch-naw{
     display: flex;
     align-items: center;
     color: #FFFFFF;
@@ -48,6 +50,7 @@ nav li{
     height: 44px;
     margin-top: 41px;
     padding: 10px 24px;
+    border-radius: 15px;
     background: #E02C6D;
 }
 .icon{
@@ -56,6 +59,7 @@ nav li{
 }
 .login{
     padding-left: 10px;
+    padding-bottom: 7px;
     font-size: 20px;
 }
 
@@ -84,6 +88,7 @@ nav li{
     width: 164px;
     height: 44px;
     padding: 10px 24px;
+    border-radius: 15px;
     background: #E02C6D;
 }
 .live{
@@ -99,7 +104,171 @@ nav li{
 }
 .images{
     margin-left: 200px;
+    margin-right: 140px;
 }
 .images:hover{
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
+/* <!--------------------------------------------------
+All Players Datalies Section Start
+----------------------------------------------------> */
+.player-info-title{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    width: 450px;
+    height: 80px;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-left: 135px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 130px;
+    margin-right: 200px;
+    background: #FFFFFF;
+}
+.player-info{
+    display: grid;
+    flex-direction: row;
+    width: 83%;
+    height: 88%;
+    padding: 21px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-images img{
+    display: grid;
+    width: 287px;
+    height: 248px;
+    padding: 13px;
+}
+.player-datalies h1{
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    width: 300px;
+    height: 25px;
+    margin: 10px 0px;
+    padding: 0px 15px 0px 15px;
+}
+.player-datalies p{
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    padding: 33px 15px 33px 15px;
+}
+/* <!----------------------------------------------------------------------
+                  All Highlights Copa America 2021 Section Style Stard
+    -----------------------------------------------------------------------> */
+.all-highlights{
+    display: flex;
+    flex-direction: row;
+}
+.highlights-datalies{
+    width: 466px;
+    height: 309px;
+    margin-top: 200px;
+    margin-bottom: 156px;
+    margin-left: 190px;
+}
+.highlights-datalies h1{
+    color: #0A0826;
+    font-size: 37px;
+    font-family: 'Poppins', sans-serif;
+}
+.highlights-datalies p{
+    font-family: 'Poppins', sans-serif;
+}
+.watch-naw {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.watch-naw-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 3px;
+    width: 164px;
+    height: 44px;
+    padding: 10px 24px;
+    border-radius: 15px;
+    background: #E02C6D;
+}
+.highlights-image img{
+    width: 567px;
+    height: 427px;
+    border-radius: 25px;
+    margin: 165px 156px 110px 69px;
+
+}
+/* <!----------------------------------------------------------------------
+                  All Highlights Copa America 2021 Section Style End
+    -----------------------------------------------------------------------> */
+
+/*-----------------------------------------------------------
+                Footer Icons Style Start
+ -----------------------------------------------------------*/
+
+
+.footer img{
+    margin-top: 158px;
+    margin-left: 475px;
+    margin-right: 475px;
+    width: 350px;
+    height: 110;
+}
+footer p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.icon-setup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.intagram{
+    padding: 14px;
+    margin: 15px;
+    background: #0B0D17;
+    opacity: 0.1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    
+}
+.dribbble{
+    padding: 14px;
+    margin: 15px;
+    background: #0B0D17;
+    opacity: 0.1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.twitter{
+    padding: 14px;
+    margin: 15px;
+    background: #0B0D17;
+    opacity: 0.1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.youtube{
+    padding: 14px;
+    margin: 15px;
+    background: #0B0D17;
+    opacity: 0.1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+/*-----------------------------------------------------------
+                Footer Icons Style End
+ -----------------------------------------------------------*/
+
